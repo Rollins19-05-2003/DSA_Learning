@@ -15,11 +15,12 @@ public class maxSubarraySum {
                 // subarray sum
                 currentSum += arr[k];
             }
-            System.out.println(currentSum + " ");
+            System.out.print(currentSum + " ");
             if (currentSum > maxSum) {
             maxSum = currentSum;
             }
         }
+        System.out.println();
     }
     System.out.println("MAX sum is : " + maxSum);
 }

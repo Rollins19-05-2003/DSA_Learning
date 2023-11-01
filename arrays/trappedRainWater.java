@@ -3,6 +3,7 @@ public class trappedRainWater {
 
     public static int TrappedWater(int height[]) {
         int n = height.length;
+
         // left max boundary
         int leftMax[] = new int[n];
         leftMax[0] = height[0];
@@ -28,7 +29,6 @@ public class trappedRainWater {
         }
         return trappedWater;
     }
-
 
     // public static int TrappedWater(int num[]) {
     //     int n = num.length;

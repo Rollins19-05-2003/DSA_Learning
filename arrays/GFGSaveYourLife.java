@@ -3,6 +3,7 @@ import java.util.*;
 
 public class GFGSaveYourLife {
     static String maxSum(String w, char x[], int b[], int n){
+        
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             map.put(x[i], b[i]);

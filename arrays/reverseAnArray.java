@@ -15,16 +15,19 @@ public class reverseAnArray {
         }
     }
 
-    public static void main(String[] args) {
-        int array[] = { 1, 2234, 34, 456, 5, 34, 6 };
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
-        System.out.println();
-        reverse(array);
+    public static void printArray(int array[]){
         for (int i = 0; i < array.length; i++) {
             System.out.print( array[i] + " ");
         }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        int array[] = { 1, 2234, 34, 456, 5, 34, 6 };
+        printArray(array);
+        reverse(array);
+        printArray(array);
+        
     }
 
 }

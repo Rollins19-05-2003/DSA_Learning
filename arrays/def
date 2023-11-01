@@ -7,4 +7,5 @@ Operation
 3. Output
 4. Update
 
-Creation of Array
+Creation of Array : 
+    datatype array_name [] = new datatype[];
